@@ -1,7 +1,4 @@
-# Sentiment-Analysis-and-Topic-Modelling
-SIGIR lecture on sentiment analysis, topic models, and nlp/ml libraries
-
-## Sentiment Analysis
+# Sentiment Analysis
 ###What is sentiment analysis? <br>
 
 Sentiment analysis is the process by which we use statistical techniques in order to gauge/understand opinions and sentiment of a piece of text. <br>
@@ -108,6 +105,12 @@ Recall @ 10: How many of the actual top 10 documents did you retrieve?
 ### F-score:
 Harmonic Mean of Recall and Precision:
 ![formula for f-score](https://cloud.githubusercontent.com/assets/7456865/19134136/cb2b5894-8b21-11e6-8413-5512f6d6d43a.png)
+
+# Latent Dirichlet Allocation
+
+Generative statistical model that groups similar documents together. NOT supervised, there is no training data!
+
+![LDA image](http://deliveryimages.acm.org/10.1145/2140000/2133826/figs/f1.jpg)
 
 
 
