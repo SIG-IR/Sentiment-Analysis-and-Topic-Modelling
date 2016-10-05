@@ -98,10 +98,12 @@ Average your scores across 10 folds. k-fold cross validation.
 
 ### Precision:
 How many of the retrieved documents are relevant?
+Precision @ 10: How many of the top 10 documents you retrieve are good?
 
 
 ### Recall
 How many of total relevant documents were retrieved?
+Recall @ 10: How many of the actual top 10 documents did you retrieve?
 
 ### F-score:
 Harmonic Mean of Recall and Precision:
