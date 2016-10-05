@@ -19,6 +19,45 @@ Twitter Sentiment vs Gallup Poll of Consumer Confidence
 ### Example: Product Reviews
 ![Image of product review](https://cloud.githubusercontent.com/assets/7456865/19133130/5b2c5eb2-8b1c-11e6-8867-8eadcaca58ca.png)
 
+## Tasks
+Easy Tasks in Sentiment Analysis: Is the text positive or negative?
+Medium Tasks in Sentiment Analysis: Score the text sentiment from -1 to 1
+Hard Tasks in Sentiment Analysis: WHY does the user feel the way s/he does?
+
+## Process:
+1) Scrape
+2) Clean
+3) Feature Extraction
+4) Classification
+
+### Scrape
+You (usually) have to scrape your data, usually from the web. We can use BeautifulSoup to scrape data OR call it from a web API.
+
+```python 
+def main(query):
+	url = "http://www.rottentomatoes.com/search/?search="
+	raw_string = re.compile(r' ')
+	fullQuery = raw_string.sub('+', query)
+	r = requests.post(url + fullQuery)
+	soup = bs(r.content)
+	if soup.find('ul',{'class':"results_ul"}):
+		tags = soup.findAll('li',{'class':"media_block bottom_divider clearfix"})
+		results = {}
+		for tag in tags:
+			info = MovieSearchResult(tag)
+			resultNum = str(tags.index(tag) + 1)
+...
+```
+
+### Clean
+
+
+
+
+### Feature Extraction
+### Classification
+
+
 
 
 
