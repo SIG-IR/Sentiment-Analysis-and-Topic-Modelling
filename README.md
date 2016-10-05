@@ -17,15 +17,15 @@ Twitter Sentiment vs Gallup Poll of Consumer Confidence
 ![Image of product review](https://cloud.githubusercontent.com/assets/7456865/19133130/5b2c5eb2-8b1c-11e6-8867-8eadcaca58ca.png)
 
 ## Tasks
-Easy Tasks in Sentiment Analysis: Is the text positive or negative?
-Medium Tasks in Sentiment Analysis: Score the text sentiment from -1 to 1
-Hard Tasks in Sentiment Analysis: WHY does the user feel the way s/he does?
+- Easy Tasks in Sentiment Analysis: Is the text positive or negative?
+- Medium Tasks in Sentiment Analysis: Score the text sentiment from -1 to 1
+- Hard Tasks in Sentiment Analysis: WHY does the user feel the way s/he does?
 
 ## Process:
-1) Scrape
-2) Clean
-3) Feature Extraction
-4) Classification
+1. Scrape
+2. Clean
+3. Feature Extraction
+4. Classification
 
 ### Scrape
 You (usually) have to scrape your data, usually from the web. We can use BeautifulSoup to scrape data OR call it from a web API.
@@ -121,13 +121,13 @@ Generative statistical model that groups similar documents together. NOT supervi
 5) Reassign w a new topic, where you choose topic t with probability p(topic t | document d) * p(word w | topic t) this is essentially the probability that topic t generated word w <br>
 
 # Using LDA or Sentiment Analysis for projects
-Few libraries available:<br>
-1) coreNLP<br>
-2) gensim<br>
-3) nltk<br>
+Few libraries available:
+1. coreNLP
+2. gensim
+3. nltk
 
-Sentiment Analysis NLTK tutorial with NB and tokenization: http://www.nltk.org/howto/sentiment.html<br>
-Gensim LDA: https://radimrehurek.com/gensim/models/ldamodel.html<br>
+Sentiment Analysis NLTK tutorial with NB and tokenization: http://www.nltk.org/howto/sentiment.html
+Gensim LDA: https://radimrehurek.com/gensim/models/ldamodel.html
 
 
 
