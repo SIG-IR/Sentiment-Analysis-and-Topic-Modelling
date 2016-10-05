@@ -51,6 +51,7 @@ def main(query):
 - Tokenize
 - n-gram?
 - Capitalization
+- Punctuation
 - Lemmatize vs Stem?
 
 ```
@@ -111,6 +112,13 @@ Harmonic Mean of Recall and Precision:
 Generative statistical model that groups similar documents together. NOT supervised, there is no training data!
 
 ![LDA image](http://deliveryimages.acm.org/10.1145/2140000/2133826/figs/f1.jpg)
+
+## Process
+1) Go through each document, and randomly assign each word in the document to one of the K topics.
+2) Go through each word w in d
+3) Calculate p(topic t | document d) = the proportion of words in document d that are currently assigned to topic t
+4) p(word w | topic t) = the proportion of assignments to topic t over all documents that come from this word w.
+5) Reassign w a new topic, where you choose topic t with probability p(topic t | document d) * p(word w | topic t) this is essentially the probability that topic t generated word w
 
 
 
