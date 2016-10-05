@@ -120,6 +120,16 @@ Generative statistical model that groups similar documents together. NOT supervi
 4) p(word w | topic t) = the proportion of assignments to topic t over all documents that come from this word w. <br>
 5) Reassign w a new topic, where you choose topic t with probability p(topic t | document d) * p(word w | topic t) this is essentially the probability that topic t generated word w <br>
 
+# Using LDA or Sentiment Analysis for projects
+Few libraries available:
+1) coreNLP
+2) gensim
+3) nltk
+
+Sentiment Analysis NLTK tutorial with NB and tokenization: http://www.nltk.org/howto/sentiment.html
+Gensim LDA: https://radimrehurek.com/gensim/models/ldamodel.html
+
+
 
 
 
