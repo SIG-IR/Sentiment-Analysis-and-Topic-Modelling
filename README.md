@@ -50,12 +50,44 @@ def main(query):
 ```
 
 ### Clean
+- html markup
+- Tokenize
+- n-gram?
+- Capitalization
+- Lemmatize vs Stem?
 
+```
+<p>
+This film isn't for all people. That's to say about a lot of movies in
+general of course, but this one in particular brings up a big clashing
+point between critics; What do we want to see in our movies? What is
+more important, to portray a fictional setting for the sake of giving
+people a mind blowing visual experience or to amuse and amaze them with
+clever plot twists and intelligent dialogs?<br><br>First lets analyze what exactly this film is made of. Basically, the
+whole thing is just one epic fighting scene after another. Most
+</p>
 
-
+```
 
 ### Feature Extraction
+
+- Emojis?
+- Unigrams
+- Linguistic Tokens:  Noun, nounphrases,adjectives, adverbs are usually used to express sentiment
+![sentiment features](https://cloud.githubusercontent.com/assets/7456865/19133823/fea2bbba-8b1f-11e6-8ef7-cd22a497a0e1.png)
+
 ### Classification
+
+Now we have our features. How do we categorize these?
+
+"In machine learning and statistics, classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known. " - Wikipedia
+
+Popular Classifiers: Naive-Bayes, Linear Regression, SVM, Random Forest, etc
+
+Classifiers are either supervised, unsupervised, semi-supervised.
+
+Splits and Cross Validation
+
 
 
 
