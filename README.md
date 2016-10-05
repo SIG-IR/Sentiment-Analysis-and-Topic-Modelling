@@ -86,11 +86,26 @@ Popular Classifiers: Naive-Bayes, Linear Regression, SVM, Random Forest, etc
 
 Classifiers are either supervised, unsupervised, semi-supervised.
 
-Splits and Cross Validation
+#### Splitting
+
+You should split your training set.
+
+#### Cross-Validation
+
+Average your scores across 10 folds. k-fold cross validation.
+
+## Evaluation of Success
+
+### Precision:
+How many of the retrieved documents are relevant?
 
 
+### Recall
+How many of total relevant documents were retrieved?
 
-
+### F-score:
+Harmonic Mean of Recall and Precision:
+![formula for f-score](https://cloud.githubusercontent.com/assets/7456865/19134136/cb2b5894-8b21-11e6-8413-5512f6d6d43a.png)
 
 
 
